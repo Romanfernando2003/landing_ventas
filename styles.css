@@ -97,6 +97,13 @@ body {
   color: #dfe6e9;
 }
 
+
+.adicionales {
+  background: white;
+  padding: 20px;
+  margin-top: 5px;
+  color: black;
+}
 .content .article h1,
 .content .article p, .adicionales {
   padding: 10px;
@@ -118,7 +125,7 @@ body {
   margin-top: 50px;
 }
 
-.container2 > .related_post {
+.container > .container2 > .related_post {
   background: #2d3436;
   color: #ffffff;
   height: 180px;
@@ -126,6 +133,9 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 0.5s ease;
+}
+.related_post > p {
+  padding: 5px;
 }
 .container2 > .related_post:hover {
   cursor: pointer;
